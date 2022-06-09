@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { debounce } from '$lib/util/debounce';
 	import { get } from '$lib/fetch';
-	import { children } from 'svelte/internal';
 
 	let term = '';
 	let results = [];

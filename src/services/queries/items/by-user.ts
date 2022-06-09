@@ -6,4 +6,4 @@ interface QueryOpts {
 	tag: string;
 }
 
-export const itemsByBuyer = async (userId: string, opts: QueryOpts) => {};
+export const itemsByUser = async (userId: string, opts: QueryOpts) => {};
